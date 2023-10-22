@@ -14,6 +14,7 @@ export const SidebarContainer = styled('aside', {
   backgroundImage:
     'linear-gradient(205deg, rgba(14,17,22,1) 35%, rgba(21,20,65,0.4) 50%, rgba(14,17,22,1) 70%, rgba(19,51,59,0.8) 100%)',
 })
+
 export const GradientDiv = styled('div', {
   height: '16rem',
   width: '14.5rem',
@@ -44,11 +45,13 @@ export const LogoBackground = styled('div', {
 })
 
 export const ButtonsList = styled('div', {
+  height: 'calc(100% - 12rem)',
   marginTop: '10rem',
   position: 'relative',
   zIndex: 4,
 
   display: 'flex',
   alignItems: 'center',
-  justifyContent: 'center',
+  justifyContent: 'space-between',
+  flexDirection: 'column',
 })

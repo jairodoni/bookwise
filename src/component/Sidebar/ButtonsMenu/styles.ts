@@ -31,7 +31,6 @@ export const Button = styled('button', {
   },
 
   '&:hover, &:focus': {
-    fontWeight: '$bold',
     color: '$gray100',
   },
 })

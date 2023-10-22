@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-avatar": "^1.0.4",
     "@rocketseat/eslint-config": "^2.1.0",
     "@stitches/react": "^1.2.8",
     "next": "13.5.6",
