@@ -30,6 +30,8 @@ export const Button = styled('button', {
     marginTop: '$4',
   },
 
+  transition: 'color 0.2s ease',
+
   '&:hover, &:focus': {
     color: '$gray100',
   },

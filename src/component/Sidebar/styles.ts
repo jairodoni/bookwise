@@ -12,7 +12,7 @@ export const SidebarContainer = styled('aside', {
   top: 0,
 
   backgroundImage:
-    'linear-gradient(205deg, rgba(14,17,22,1) 35%, rgba(21,20,65,0.4) 50%, rgba(14,17,22,1) 70%, rgba(19,51,59,0.8) 100%)',
+    'linear-gradient(230deg,  rgba(21,20,65,0.4) 10%, rgba(19,51,59,0.4) 25%, rgba(14,17,22,1) 40%, rgba(21,20,65,0.4) 60%, rgba(19,51,59,0.8) 100%)',
 })
 
 export const GradientDiv = styled('div', {
@@ -24,9 +24,9 @@ export const GradientDiv = styled('div', {
   left: 0,
   top: 0,
 
-  backgroundColor: '$green200',
-  background:
-    'linear-gradient(180deg, rgba(19,51,59,1) 0%, rgba(21,20,65,1) 50%, rgba(0,0,0, 0) 100%)',
+  // backgroundColor: '$green200',
+  background: 'transparent',
+  // 'linear-gradient(180deg, rgba(19,51,59,1) 0%, rgba(21,20,65,1) 50%, rgba(0,0,0, 0) 100%)',
   borderRadius: '12px 12px 0 0',
 })
 
