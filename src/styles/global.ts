@@ -9,12 +9,13 @@ export const globalStyles = globalCss({
   },
   html: {
     fontFamily: nunito.style.fontFamily,
-    lineHeight: 'base',
+    lineHeight: '$base',
   },
   body: {
     background: '$gray800',
     color: '$gray100',
     '-webkit-font-smoothing': 'antialiased',
+    'text-rendering': 'optimiseLegibility',
   },
 
   a: {
@@ -22,8 +23,10 @@ export const globalStyles = globalCss({
   },
 
   'body, input, textarea, button': {
-    fontFamily: '$default',
+    fontFamily: nunito.style.fontFamily,
+    fontSize: '$md',
     fontWeight: '$regular',
+    lineHeight: '$base',
   },
   button: {
     cursor: 'pointer',

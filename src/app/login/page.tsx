@@ -2,7 +2,11 @@ import Image from 'next/image'
 import google from '@/assets/images/google.svg'
 import github from '@/assets/images/github.svg'
 import visitante from '@/assets/images/visitante.svg'
-import { LoginContainer, LoginSectionImage, WelcomeComponent } from './styles'
+import {
+  LoginContainer,
+  LoginSectionImage,
+  WelcomeComponent,
+} from '@/styles/page/login'
 
 export default function Login() {
   return (

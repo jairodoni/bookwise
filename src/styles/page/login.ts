@@ -2,7 +2,7 @@ import { styled } from '../../../stitches.config'
 
 export const LoginContainer = styled('div', {
   display: 'grid',
-  gridTemplateColumns: '0.8fr 1fr',
+  gridTemplateColumns: '0.8fr 1.2fr',
   placeItems: 'center',
   minHeight: '100vh',
   padding: '$5',

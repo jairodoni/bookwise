@@ -25,7 +25,9 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: getCssText() }}
         />
       </head>
-      <body className={nunito.className}>{children}</body>
+      <body className={nunito.className}>
+        <div>{children}</div>
+      </body>
     </html>
   )
 }
