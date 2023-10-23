@@ -2,6 +2,31 @@ import { styled } from '../../../stitches.config'
 
 export const HomeContainer = styled('div', {
   display: 'flex',
-  flexDirection: 'row',
-  padding: '$5 $5 $5 16rem',
+  flexDirection: 'column',
+
+  '> header > h1': {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'flex-start',
+
+    fontSize: '$2xl',
+    lineHeight: '$short',
+    fontWeight: '$bold',
+
+    svg: {
+      marginRight: '$5',
+    },
+  },
+
+  main: {
+    margin: '2.5rem 0 1rem',
+    display: 'flex',
+    alignItems: 'flex-start',
+    justifyContent: 'center',
+    flexDirection: 'column',
+
+    '> span': {
+      marginBottom: '$4',
+    },
+  },
 })

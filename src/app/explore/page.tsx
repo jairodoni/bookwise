@@ -1,11 +1,11 @@
-import { Sidebar } from '@/component'
 import { ExploreContainer } from '@/styles/page/explore'
+import { HeadExplore } from './components'
 
 export default function Explore() {
   return (
     <ExploreContainer>
-      <Sidebar />
-      <h1>explore</h1>
+      <HeadExplore />
+      <main></main>
     </ExploreContainer>
   )
 }

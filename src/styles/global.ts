@@ -16,6 +16,7 @@ export const globalStyles = globalCss({
     color: '$gray100',
     '-webkit-font-smoothing': 'antialiased',
     'text-rendering': 'optimiseLegibility',
+    padding: '3.25rem $5 $5 22rem',
   },
 
   a: {

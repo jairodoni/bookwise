@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Nunito } from 'next/font/google'
 import { getCssText } from '../../stitches.config'
 import { globalStyles } from '@/styles/global'
+import { Sidebar } from '@/component'
 
 globalStyles()
 
@@ -26,6 +27,7 @@ export default function RootLayout({
         />
       </head>
       <body className={nunito.className}>
+        <Sidebar />
         <div>{children}</div>
       </body>
     </html>

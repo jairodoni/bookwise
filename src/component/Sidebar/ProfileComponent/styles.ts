@@ -1,5 +1,4 @@
 import { styled } from '../../../../stitches.config'
-import * as Avatar from '@radix-ui/react-avatar'
 
 export const Profile = styled('div', {
   height: '3rem',
@@ -49,45 +48,5 @@ export const LogoutButton = styled('button', {
     height: '1.25rem',
     width: '1.25rem',
     color: '#F75A68',
-  },
-})
-
-export const AvatarContainer = styled(Avatar.Root, {
-  borderRadius: '$full',
-  marginRight: '$3',
-
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-
-  width: '2rem',
-  height: '2rem',
-  overflow: 'hidden',
-  background:
-    'linear-gradient(205deg, rgba(127,209,204,1) 0%, rgba(150,148,245,1) 100%)',
-})
-
-export const AvatarImage = styled(Avatar.Image, {
-  width: '1.75rem',
-  height: '1.75rem',
-  objectFit: 'cover',
-  borderRadius: 'inherit',
-})
-
-export const AvatarFallback = styled(Avatar.Fallback, {
-  width: '2rem',
-  height: '2rem',
-
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  backgroundColor: '$gray600',
-  background:
-    'linear-gradient(205deg, rgba(127,209,204,1) 0%, rgba(150,148,245,1) 100%)',
-
-  svg: {
-    color: '$white',
-    width: '1.25rem',
-    height: '1.25rem',
   },
 })

@@ -1,11 +1,12 @@
 import { Sidebar } from '@/component'
 import { ProfileContainer } from '@/styles/page/profile'
+import { HeadProfile } from './components/index'
 
 export default function Profile() {
   return (
     <ProfileContainer>
-      <Sidebar />
-      <h1>profile</h1>
+      <HeadProfile />
+      <main></main>
     </ProfileContainer>
   )
 }

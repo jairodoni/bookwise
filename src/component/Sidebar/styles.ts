@@ -7,12 +7,12 @@ export const SidebarContainer = styled('aside', {
   borderRadius: '12px',
 
   zIndex: 0,
-  position: 'absolute',
+  position: 'fixed',
   left: 0,
   top: 0,
 
   backgroundImage:
-    'linear-gradient(230deg,  rgba(21,20,65,0.4) 10%, rgba(19,51,59,0.4) 25%, rgba(14,17,22,1) 40%, rgba(21,20,65,0.4) 60%, rgba(19,51,59,0.8) 100%)',
+    'linear-gradient(230deg,  rgba(21,20,65,0.6) 10%, rgba(19,51,59,0.45) 15%, rgba(7,7,31,0.8) 35%, rgba(21,20,65,0.4) 50%, rgba(19,51,59,0.6) 100%)',
 })
 
 export const GradientDiv = styled('div', {
@@ -23,10 +23,8 @@ export const GradientDiv = styled('div', {
   position: 'absolute',
   left: 0,
   top: 0,
-
-  // backgroundColor: '$green200',
   background: 'transparent',
-  // 'linear-gradient(180deg, rgba(19,51,59,1) 0%, rgba(21,20,65,1) 50%, rgba(0,0,0, 0) 100%)',
+
   borderRadius: '12px 12px 0 0',
 })
 
