@@ -1,10 +1,10 @@
 import { ExploreContainer } from '@/styles/page/explore'
-import { HeadExplore } from './components'
+import { Header } from '@/component/Header'
 
 export default function Explore() {
   return (
     <ExploreContainer>
-      <HeadExplore />
+      <Header page="/explore" />
       <main></main>
     </ExploreContainer>
   )

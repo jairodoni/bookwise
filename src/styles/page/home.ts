@@ -4,29 +4,38 @@ export const HomeContainer = styled('div', {
   display: 'flex',
   flexDirection: 'column',
 
-  '> header > h1': {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'flex-start',
+  '> main': {
+    display: 'grid',
+    gridTemplateColumns: '1fr 0.5fr',
+    gridColumnGap: '4rem',
 
-    fontSize: '$2xl',
-    lineHeight: '$short',
-    fontWeight: '$bold',
+    '> div:first-child': {
+      display: 'flex',
+      alignItems: 'flex-start',
+      justifyContent: 'center',
+      flexDirection: 'column',
 
-    svg: {
-      marginRight: '$5',
+      marginBottom: '1rem',
+
+      '> span': {
+        marginBottom: '$4',
+      },
     },
-  },
 
-  main: {
-    margin: '2.5rem 0 1rem',
-    display: 'flex',
-    alignItems: 'flex-start',
-    justifyContent: 'center',
-    flexDirection: 'column',
+    '> div:last-child > div': {
+      maxWidth: 324,
+      width: '100%',
+      display: 'flex',
+      justifyContent: 'space-between',
 
-    '> span': {
-      marginBottom: '$4',
+      '> span': {
+        marginBottom: '$4',
+      },
+    },
+
+    '@media (min-width: 3000px)': {
+      display: 'flex',
+      justifyContent: 'center',
     },
   },
 })

@@ -1,11 +1,11 @@
 import { Sidebar } from '@/component'
 import { ProfileContainer } from '@/styles/page/profile'
-import { HeadProfile } from './components/index'
+import { Header } from '@/component/Header'
 
 export default function Profile() {
   return (
     <ProfileContainer>
-      <HeadProfile />
+      <Header page="/profile" />
       <main></main>
     </ProfileContainer>
   )

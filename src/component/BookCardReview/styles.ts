@@ -1,7 +1,7 @@
 import { styled } from '../../../stitches.config'
 
 export const BookCardReviewContainer = styled('div', {
-  maxWidth: 608,
+  maxWidth: 1200,
   width: '100%',
   borderRadius: 8,
   background: '$gray700',

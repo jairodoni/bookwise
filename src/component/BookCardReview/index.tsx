@@ -7,7 +7,7 @@ import {
   Perfil,
 } from './styles'
 import book from '@/assets/images/o-guia-do-mochileiro-das-galaxias.png'
-import { Stars } from './Stars'
+import { Stars } from '../Stars'
 
 export function BookCardReview() {
   return (
