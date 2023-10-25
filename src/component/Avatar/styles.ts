@@ -9,23 +9,23 @@ export const AvatarContainer = styled(Avatar.Root, {
   alignItems: 'center',
   justifyContent: 'center',
 
-  width: '2.5rem',
-  height: '2.5rem',
+  width: 'var(--size-container)',
+  height: 'var(--size-container)',
   overflow: 'hidden',
   background:
     'linear-gradient(205deg, rgba(127,209,204,1) 0%, rgba(150,148,245,1) 100%)',
 })
 
 export const AvatarImage = styled(Avatar.Image, {
-  width: '2.25rem',
-  height: '2.25rem',
+  width: 'var(--size-image)',
+  height: 'var(--size-image)',
   objectFit: 'cover',
   borderRadius: 'inherit',
 })
 
 export const AvatarFallback = styled(Avatar.Fallback, {
-  width: '2.5rem',
-  height: '2.5rem',
+  width: 'var(--size-container)',
+  height: 'var(--size-container)',
 
   display: 'flex',
   alignItems: 'center',

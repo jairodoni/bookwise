@@ -1,5 +1,4 @@
 'use client'
-import { usePathname } from 'next/navigation'
 import { Binoculars, ChartLineUp, User } from 'phosphor-react'
 import { HeaderContainer } from './styles'
 

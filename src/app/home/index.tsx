@@ -1,8 +1,8 @@
-import { HomeContainer } from '@/styles/page/home'
 import { BookCardReview } from '@/component'
 import { SeeAllButton } from '@/component/SeeAllButton'
-import { Header } from '@/component/Header'
 import { BookCardRecommendation } from '@/component/BookCardRecommendation'
+import { HomeContainer } from '@/styles/page/home'
+import { Header } from '@/component/Header'
 
 export default function Home() {
   return (

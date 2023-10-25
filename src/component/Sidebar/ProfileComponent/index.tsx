@@ -6,7 +6,7 @@ import { Avatar } from '@/component/Avatar'
 
 export function ProfileComponent() {
   // linha de baixo, mock de teste...
-  const [userStatusLogin, setUserStatusLogin] = useState(false)
+  const [userStatusLogin, setUserStatusLogin] = useState(true)
 
   return (
     <Profile>
@@ -16,7 +16,11 @@ export function ProfileComponent() {
         </LoginButton>
       ) : (
         <UserLogged>
-          <Avatar />
+          <Avatar
+            sizeContainer="2rem"
+            sizeImage="1.75rem"
+            src="https://github.com/jairodoni.png"
+          />
           <span>Jairo Doni</span>
           <LogoutButton>
             <SignOut />

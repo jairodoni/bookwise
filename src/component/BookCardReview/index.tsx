@@ -15,7 +15,11 @@ export function BookCardReview() {
       <HeaderCard>
         <Perfil>
           <div>
-            <Avatar />
+            <Avatar
+              sizeContainer="2.5rem"
+              sizeImage="2.25rem"
+              src="https://github.com/jairodoni.png"
+            />
             <div>
               <span>Jairo Doni</span>
               <span>Hoje</span>

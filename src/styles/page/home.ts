@@ -26,11 +26,10 @@ export const HomeContainer = styled('div', {
       maxWidth: 324,
       width: '100%',
       display: 'flex',
+      alignItems: 'center',
       justifyContent: 'space-between',
 
-      '> span': {
-        marginBottom: '$4',
-      },
+      marginBottom: '$4',
     },
 
     '@media (min-width: 3000px)': {

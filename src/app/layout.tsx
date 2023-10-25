@@ -3,6 +3,7 @@ import { Nunito } from 'next/font/google'
 import { getCssText } from '../../stitches.config'
 import { globalStyles } from '@/styles/global'
 import { Sidebar } from '@/component'
+import { ReactNode } from 'react'
 
 globalStyles()
 
@@ -13,11 +14,11 @@ export const metadata: Metadata = {
   description: ' Avalie seus livros favoritos.',
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+interface RootLayoutProps {
+  children: ReactNode
+}
+
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <head>

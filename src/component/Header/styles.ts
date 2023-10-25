@@ -1,7 +1,7 @@
 import { styled } from '../../../stitches.config'
 
 export const HeaderContainer = styled('header', {
-  width: '100vw',
+  width: 'fit-content',
   marginBottom: '2.5rem',
 
   '> h1': {

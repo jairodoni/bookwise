@@ -1,11 +1,10 @@
-import { ExploreContainer } from '@/styles/page/explore'
-import { Header } from '@/component/Header'
+import { FormSearch } from './components/FormSearch'
 
 export default function Explore() {
   return (
-    <ExploreContainer>
-      <Header page="/explore" />
+    <>
+      <FormSearch />
       <main></main>
-    </ExploreContainer>
+    </>
   )
 }
